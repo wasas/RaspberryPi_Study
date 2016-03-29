@@ -17,11 +17,11 @@ void LED_INIT()
 void LED_ON(int i)
 {
 	//RPI_SetGpioValue(LED_GPIO_NUM,RPI_IO_LO);
-	RPI_SetGpioValue(led[i],RPI_IO_LO);
+	RPI_SetGpioValue(led[i],RPI_IO_HI);
 }
 
 void LED_OFF(int i)
 {
 	//RPI_SetGpioValue(LED_GPIO_NUM,RPI_IO_HI);
-	RPI_SetGpioValue(led[i],RPI_IO_HI);
+	RPI_SetGpioValue(led[i],RPI_IO_LO);
 }

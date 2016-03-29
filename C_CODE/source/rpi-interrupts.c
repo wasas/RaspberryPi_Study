@@ -138,10 +138,10 @@ void __attribute__((interrupt("IRQ"))) interrupt_vector(void)
 
     /* Flip the LED */
     for (i = 0; i < 4; i++){
-        LED_ON( i );
+        LED_OFF( i );
     }
 
-    LED_OFF( seconds % 4 );
+    LED_ON( seconds % 4 );
     /*
     if( lit )
     {
