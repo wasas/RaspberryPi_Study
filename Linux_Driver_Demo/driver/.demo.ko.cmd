@@ -1,0 +1,1 @@
+cmd_/src/ras/embedded-system-experiment/ok06/driver/demo.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /src/ras/embedded-system-experiment/ok06/driver/demo.ko /src/ras/embedded-system-experiment/ok06/driver/demo.o /src/ras/embedded-system-experiment/ok06/driver/demo.mod.o
